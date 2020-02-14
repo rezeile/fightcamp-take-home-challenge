@@ -49,4 +49,4 @@ It should look like the screenshot below:
   Refactor the `Packages.vue` code as you see fit to increase clarity and reusability. Explain your decisions in your `README`.
 
 ## 5. BONUS [hard]
-  You might have noticed that the ImagePresenter is not correctly focusing on the clicked thumbnail images and making them the current image. Refer to the first and second screenshots for examples on how it should work/look. Without touching the `ImagePresenter.vue` code, fix the image selection issue and explain the problem.
+  You might have noticed that the ImagePresenter is not correctly focusing on the clicked thumbnail images and making them the current image. This issue happens if you scroll down or resize the browser. Refer to the first and second screenshots for examples on how it should work/look. Without touching the `ImagePresenter.vue` code, fix the image selection issue and explain the problem.
