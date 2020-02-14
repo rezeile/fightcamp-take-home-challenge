@@ -1,8 +1,8 @@
 # FightCamp's Take Home Challenge 🥊
 
-Hey! We are excited to have you in this next step of the interview process and to potentially have you be part of the FightCamp family.
+Hey! Congratulations on making it to the next step in the interview process. We look forward to having you potentially join the FightCamp family!
 
-The FightCamp challenge is a way for us to learn how you solve problems, think about code maintenance and communicate technical topics to your fellow team members.
+The FightCamp challenge is an opportunity for you to demonstrate your problem solving skills, your perspective on code maintenance, and your communication style.
 
 ## Expectations
 
