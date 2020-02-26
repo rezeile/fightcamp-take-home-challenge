@@ -634,11 +634,20 @@
       justify-content: center;
       margin-top: .5rem;
 
+      @media  (min-width: 768px) and (max-width: 1022px) {
+        margin-top: 3.5rem;
+        margin-left: .5rem;
+      }
+
       .prefix {
         align-self: flex-start;
         font-size: 20px;
 
-        @media  (min-width: 768px) and (max-width: 1200px) {
+        @media  (min-width: 768px) and (max-width: 1022px) {
+          font-size: 14px;
+        }
+
+        @media  (min-width: 1022px) and (max-width: 1200px) {
           font-size: 20px;
         }
 
@@ -650,7 +659,11 @@
       .value {
         font-size: 30px;
 
-        @media  (min-width: 768px) and (max-width: 1200px) {
+        @media  (min-width: 768px) and (max-width: 1022px) {
+          font-size: 25px;
+        }
+
+        @media  (min-width: 1022px) and (max-width: 1200px) {
           font-size: 35px;
         }
 
@@ -664,7 +677,11 @@
         line-height: 1.5em;
         font-size: 20px;
 
-        @media  (min-width: 768px) and (max-width: 1200px) {
+        @media  (min-width: 768px) and (max-width: 1022px) {
+          font-size: 21px;
+        }
+
+        @media  (min-width: 1022px) and (max-width: 1200px) {
           font-size: 30px;
         }
 
@@ -712,12 +729,8 @@
       flex: 1 1 auto;
       margin: 10px 0 30px;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
-    }
-
-    &-item-inner {
-      flex: 1 0 270px;
     }
 
     &-item-block {
