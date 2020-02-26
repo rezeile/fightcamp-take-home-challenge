@@ -23,6 +23,8 @@ In order to center align the element, I added an `align-items: center` property 
 
 ## 3. Included Items [easy]
 
+The problem here was that `item` is not a boolean (it's an object) and the check `typeof item === 'boolean'` always returns false. We just need to grab the `included` value from the `item` object and return it's inverse.
+
 ## 4. Refactor [normal]
 
 ## 5. BONUS [hard]

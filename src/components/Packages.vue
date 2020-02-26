@@ -449,7 +449,7 @@
     },
     methods: {
       itemIncluded(item) {
-        return (typeof item === "boolean") && (item.included === "false")
+        return !item.included;
       },
     },
     components: {
