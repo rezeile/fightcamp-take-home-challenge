@@ -31,5 +31,7 @@ I thought the file was fairly clean. The only thing that was bothering me was th
 
 ## 5. BONUS [hard]
 
+I removed the [vue-lazyload](https://github.com/hilongjw/vue-lazyload#usage) component `lazy-component` and replaced it with a regular `<div>`. Because this component defers loading of the images to the page-load time, it's not being picked up by the `ImagePresenter.vue`.
+
 
 
