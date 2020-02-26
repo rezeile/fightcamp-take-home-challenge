@@ -27,6 +27,8 @@ The problem here was that `item` is not a boolean (it's an object) and the check
 
 ## 4. Refactor [normal]
 
+I thought the file was fairly clean. The only thing that was bothering me was the large data object existing in the same file. Usually this data would be fetched from a datastore via an api and it is distracting in the code base. 
+
 ## 5. BONUS [hard]
 
 
