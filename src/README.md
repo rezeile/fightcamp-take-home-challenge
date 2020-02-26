@@ -1,9 +1,3 @@
-Create a README with the following items:
-
-Description of the problem and how you solved it.
-The reasoning behind your decisions.
-Any other information you believe is necessary for us to know about the issue/solution.
-
 # Solutions
 
 ## 1. Screen Scaling Issue [easy]
@@ -24,6 +18,8 @@ In order that the texts may fit in the container, I also changed the flex direct
 Finally, I removed the `&-item-inner` because a fixed 270px width is no longer needed. 
   
 ## 2. Mobile Package Centering [easy]
+
+In order to center align the element, I added an `align-items: center` property to the parent of the blocks, `packages-container`. In addition so that all the package blocks are of equal width I added a `min-width: 366px` property when the window is resized between `500-959` pixels.
 
 ## 3. Included Items [easy]
 

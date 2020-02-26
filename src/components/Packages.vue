@@ -493,7 +493,11 @@
       display: flex;
       flex-direction: column-reverse;
 
-      @media  (min-width: 768px) and (max-width: 1200px) {
+      @media  (min-width: 500px) and (max-width: 959px) {
+        align-items: center;
+      }
+
+      @media  (min-width: 960px) and (max-width: 1200px) {
         flex-direction: row;
         padding: 1rem 0;
         justify-content: center;
@@ -517,7 +521,11 @@
     flex-direction: column;
     max-width: 450px;
 
-    @media  (min-width: 768px) and (max-width: 1200px) {
+    @media  (min-width: 500px) and (max-width: 959px) {
+      min-width: 366px;
+    }
+
+    @media  (min-width: 960px) and (max-width: 1200px) {
       flex: 1;
     }
 
